@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: #ffdf8c;
+}
+
+.admin {
+    padding-bottom: 40px;
+}
+
+.input {
+    padding-bottom: 20px;
+    input {
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        width: 300px;
+        padding: 12px 20px;
+        border-radius: 12px;
+        font-size: 14px;
+    }
+
+    h2 {
+        padding-bottom: 10px;
+    }
+}
